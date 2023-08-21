@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* min-width: 1800px; */
+  height: 100vh;
+  background: url('https://tc.miniwhite.top/images/123.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  width: 1200px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+}
+
+.header-left {
+  width: 25%;
+  height: 100%;
+}
+
+.header-right {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  align-items: center;
+}
+
+.header-right .search {
+  width: 65%;
+  height: 45px;
+  border-radius: 50px;
+  margin: 10px 50px;
+}
+.header-right .indicator_box {
+  margin-left: 10px;
+  color: white;
+}
+.indicator_box_label {
+  margin-right: 20px;
+}
+.header-right label {
+  width: 20px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.header-right input {
+  width: 85%;
+  height: 80%;
+  padding: 0 5px;
+  margin: 5px 15px;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+
+.header-right .search:hover {
+  border: 1px solid pink;
+}
+
+.container-main {
+  display: flex;
+  width: 100%;
+  height: 65vh;
+}
+
+.music-control {
+  display: flex;
+  width: 100%;
+  height: 73px;
+  position: relative;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  z-index: 9;
+}
+
+.container-mainLeft {
+  border-radius: 10px;
+  width: 23%;
+  height: 95%;
+  background-color: #fff;
+  margin: 10px 10px;
+}
+
+.container-mainLeft ul {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.container-mainLeft ul li {
+  display: block;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  line-height: 50px;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.container-mainLeft ul li:hover {
+  background-color: #f5f5f5;
+}
+
+.container-mainLeft ul h3 {
+  margin: 5px 0;
+}
+
+.container-mainRight {
+  width: 76%;
+  height: 100%;
+}
+
+.mainRight-up {
+  margin: 10px 0;
+  height: 45%;
+  margin-right: 10px;
+}
+
+.banner {
+  max-width: 100%;
+  height: 85%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mainRight-down {
+  height: 50%;
+}
+
+.recommend-list {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  text-align: center;
+  flex-wrap: wrap;
+  /* overflow-x: auto; */
+  justify-content: center;
+}
+
+.recommend-music:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+.recommend-music {
+  /* width: 20%; */
+  max-width: 195px;
+  height: 82%;
+  margin: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.recommend-music div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  font-size: 10px;
+  width: 190px !important;
+  color: white;
+}
+.recommend-music img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.music-text {
+  display: flex;
+  width: 300px;
+  height: 100%;
+}
+
+.music-logo img {
+  width: 60px;
+  height: 60px;
+  margin: 5px 20px;
+}
+
+.music-name {
+  width: 200px;
+  height: 100%;
+}
+
+.music-name p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap !important;
+  margin: 10px 0;
+}
+
+/* .music-control audio {
+  min-width: 600px;
+  margin: 10px 20px;
+}
+
+audio {
+  color: red;
+} */
